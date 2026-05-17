@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+!*.env.example
+!*.env.sample
+
+# Build output and generated app artifacts
+.next/
+dist/
+coverage/
+.turbo/
+out/
+build/
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-error.log
+docker_volumes_data/
+
+# Local caches
+.cache/
+.parcel-cache/
+.eslintcache
+.pnpm-store/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
