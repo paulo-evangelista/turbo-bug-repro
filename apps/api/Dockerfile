@@ -30,6 +30,6 @@ WORKDIR /app
 
 COPY --from=installer /app .
 
-WORKDIR /app/apps/admin-backend
+WORKDIR /app/apps/api
 
 CMD ["bun", "run", "start"]
